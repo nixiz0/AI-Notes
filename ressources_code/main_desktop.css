@@ -1,0 +1,77 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    overflow-x: hidden;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(66, 66, 66);
+    background-image: url('../ressources/main_desktop/background_xp.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-clip: content-box;
+    background-origin: content-box; 
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(124, 24, 225);
+    color: rgb(10, 83, 255);
+}
+
+a:active {
+    color: rgb(6, 112, 218);
+}
+
+.main_logo_windows_xp {
+    text-align: center;
+    margin-top: 14em;
+    margin-bottom: 23.1em;
+}
+
+    .main_logo_windows_xp img {
+        width: 15em;
+        height: auto;
+    }
+
+.notes_pdf {
+    text-align: center;
+    padding: 2.8em;
+}
+
+    .notes_pdf object {
+        border-radius: 4%;
+        width: 500px;
+        height: 700px;
+    }
+
+
+@media (max-width:940px) {
+    .main_logo_windows_xp {
+        text-align: center;
+        margin-top: 8em;
+        margin-bottom: 22.5em;
+    }
+    
+        .main_logo_windows_xp img {
+            width: 13em;
+        }
+
+    .notes_pdf {
+        padding: 2em;
+    }
+    
+        .notes_pdf object {
+            width: 450px;
+            height: 600px;
+        }
+}

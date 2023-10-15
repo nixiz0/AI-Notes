@@ -1,0 +1,207 @@
+footer {
+    background-color: #006aee;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot_left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+    .xp_start {
+        display: flex;
+        background-color: green;
+    }
+
+    .xp_start a {
+        padding: 0;
+        margin: 0;
+    }
+
+    .xp_start img {
+        width: 10em;
+        height: auto;
+    }
+
+    .square-popup {
+        display: none;
+        width: 350px;
+        height: 400px;
+        background-color: rgb(205, 205, 205);
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: white;
+        padding: 0px;
+        animation: fadeIn 0.5s ease-in-out;
+    }
+    
+    .popup_head {
+        background-color: #006aee;
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .popup_head a {
+        padding: 1em;
+        text-decoration: none;
+        color: white;
+    }
+
+    .popup_head img {
+        width: 3em;
+        height: auto;
+        margin-left: 1em;
+        border-radius: 10%;
+    }
+    
+    .columns {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    
+    .column {
+        margin-top: 1em;
+        display: flex;
+        align-items: center;
+    }
+    
+    .column img {
+        margin-left: 1em;
+        width: 2.5em;
+        height: auto;
+        margin-right: 10px;
+    }
+
+    .xp_app_logo {
+        display: flex;
+        margin-left: 1em;
+        margin-top: 0.3em;
+    }
+
+    .xp_app_logo a {
+        margin-right: 0.7em;
+    }
+
+    .xp_app_logo img {
+        width: 3.3em;
+        height: auto;
+    }
+
+    .xp_app_logo img:active {
+        width: 3.2em;
+    }
+
+    .open_app {
+        display: flex;
+    }
+
+    .open_app a {
+        margin-top: 0.2em;
+    }
+
+    .open_app img {
+        border-radius: 2%;
+        width: auto;
+        height: auto;
+        transition: all ease-in-out 0.15s;
+    }
+
+    .open_app img:hover {
+        border-radius: 8%;
+    }
+
+    .open_app img:active {
+        padding: 0.1em;
+    }
+
+
+.foot_right {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #069eff;
+}
+
+    .speaker_xp img {
+        margin-top: 1.02em;
+        padding-left: 0.8em;
+        padding-right: 0.2em;
+        width: 2em;
+        height: auto;
+    }
+
+    .wifi_xp img {
+        margin-top: 1em;
+        padding-left: 0.8em;
+        padding-right: 0.8em;
+        width: 2em;
+        height: auto;
+    }
+
+    .clock {
+        text-align: center;
+        margin-right: 1em;
+        margin-left: 0.5em;
+        margin-top: 0.7em;
+        color: white;
+        font-size: 1.1em;
+    }
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+@media (max-width:940px) {
+    .xp_start img {
+        width: 6em;
+    }
+
+    .xp_app_logo img {
+        width: 2em;
+    }
+
+    .xp_app_logo img:active {
+        width: 2.2em;
+    }
+
+    .open_app {
+        display: flex;
+    }
+
+    .open_app img {
+        margin-top: 0.1em;
+        width: 8em;
+        height: 2em;
+    }
+
+    .speaker_xp img {
+        margin-top: 0.7em;
+        width: 1.2em;
+    }
+
+    .wifi_xp img {
+        margin-top: 0.7em;
+        width: 1.2em;
+    }
+
+    .clock {
+        margin-top: 0.4em;
+        font-size: 0.85em;
+    }
+
+    #date {
+        margin-top: 0.2em;
+    }
+}

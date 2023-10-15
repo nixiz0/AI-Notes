@@ -1,0 +1,66 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    overflow-x: hidden;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #3c3c3c;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+article {
+    margin-top: 3.5em;
+    text-align: center;
+}
+
+    article h2 {
+        color: white;
+        text-shadow: 2px 1px 2px rgba(0,0,0,0.6);
+        font-size: 1.35em;
+    }
+
+    .btn_pdf {
+        min-width: 130px;
+        height: 40px;
+        color: #fff;
+        padding: 5px 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        border-radius: 5px;
+        border: 2px solid #212529;
+        background: #212529;
+        font-size: 0.9em;
+      }
+
+      .btn_pdf:hover {
+        background: #fff;
+        color: #212529
+      }
+
+      .btn_pdf:active {
+        font-size: 0.85em;
+      }
+
+.logo_article {
+    width: 5.5em;
+    height: auto;
+}
+
+.machine_learnia_logo {
+    margin-top: 2em;
+    width: 5em;
+    height: auto;
+}
